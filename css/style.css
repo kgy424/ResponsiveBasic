@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Gothic:wght@400;700;800&display=swap');
+/* font-family: 'Nanum Brush Script', cursive;
+font-family: 'Nanum Gothic', sans-serif; */
+
+/* Layout */
+body {
+    background: url(../img/bg4.jpg)repeat-x center top;
+    background-size: 1920px 327px;
+}
+
+#header {
+    height: 327px;
+}
+
+/* container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* #header */
+.header {
+    
+}
+
+.header .hd_menu {text-align: right;}
+
+.header .hd_menu a {
+    color: #fff;
+    display: inline-block;
+    padding: 8px 0 0 10px;
+}
+
+.header .hd_menu a:hover {
+    color: #ccc;
+}
+
+.header .hd_tit{text-align: center;}
+.header .hd_tit h1{color: #ddd;
+display: inline; padding: 5px 30px;
+background-color: #51b0bc;
+}
+.header .hd_tit a{color: #fff;}
